@@ -2,7 +2,7 @@
 Remember when we covered the "=" sign being an *assignment operator*?
 Well, Python has way more than just the "=" operator!
 ### What is an operator?
-An operator in computer science definition, is a symbol or series of symbols (e.g =, !=, >=) , OR a word, that change or do something to a specific value/name.
+An operator in computer science definition, is a symbol or series of symbols (e.g =, !=, >=) , OR a word, that change, do something, or compare 2 values to a specific value.
 For example, let's take the name `x`, and use the `=` operator to assign it to a value:
 ```py
 x = 123
@@ -30,4 +30,15 @@ Let's explain what all these operators even do:
 ```
 These operators are probably the most common ones you'll spot in a codebase, due to their important usages. These operators are special, in the way that they ONLY return booleans. (`True`, `False`, we'll go into more detail about built in types later)
 Let's explain what these operators do!
-- `!=` - The symbol used to denote that something should NOT be the same as another thing. (pretty vague, but we'll get into the nitty gritty of these things pretty soon)
+- `!=` - The symbol used to denote that something should NOT be the same as another thing.
+- `==` - The symbol used to denote that the things being compared should be the same.
+- `>` - (cannot be used with non integer/float types, more about this later) The symbol used to denote that some number is greater than another number.
+- `<` - (also cannot be used with non integer/float types) The symbol used to denote that some number is less than another number.
+- `<=` - (cannot be used with non integer/float types) The symbol used to denote that some number is less than or equal to another number.
+- `>=` - (cannot be used with non integer/float types) The symbol used to denote that some number is more than or equal to another number.
+
+### Bitwise Operators
+```
+&, |, >>, ^ , <<, ~ 
+```
+These operators are more niche, not used commonly in most codebases. These operators perform binary operations on binary values. This will require more knowledge in Python's built in types, which we'll cover in [types](types.md) (wow, so conveniently placed right after operators!)
