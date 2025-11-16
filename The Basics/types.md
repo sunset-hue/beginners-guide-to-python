@@ -17,7 +17,12 @@ print("x")
 >> "abcxyz"
 ```
 Woah! That's cool, right? Strings also support formatting/inserting variables as if they were part of the string. There are 2 ways to format variables into strings.
-***f-strings***
+### ***f-strings***
 This is the more elegant way of inserting variables. Using this format, you can just enter a variable name into a string, and it works (well, not quite, but we'll cover that a LOT later.)
 You can insert variables into a f-string using this format: `f"hey, {x}!"`. This would display ```hey, abcxyz!``` if it was put through `print()`.
 The curly braces syntax (basically "rules" on how a specific language or, in this case, f-strings, work) for f-strings has a lot more flexibility though, which you can see [here](https://fstring.help/cheat/).
+
+### `.format()`
+A built in function you can use on any string, which takes a variable/another type/string as a value.
+
+There are other ways, but they're a lot more niche, and conform to more how C, another programming language does it.
