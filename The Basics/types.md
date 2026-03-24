@@ -26,3 +26,4 @@ The curly braces syntax (basically "rules" on how a specific language or, in thi
 A built in function you can use on any string, which takes a variable/another type/string as a value.
 
 There are other ways, but they're a lot more niche, and conform to more how C, another programming language does it.
+> String Parsing
